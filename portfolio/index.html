@@ -22,18 +22,43 @@
     <h1>Portfolio</h1>
     <p class="subtitle">A showcase of my work</p>
 
-    <!-- Gallery / Projects -->
-    <section class="portfolio-gallery">
-      <div class="portfolio-item">
-        <img src="../assets/images/project1.jpg" alt="Project 1">
-        <p>Project Title / Description</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="../assets/images/project2.jpg" alt="Project 2">
-        <p>Project Title / Description</p>
-      </div>
-      <!-- Add more items as needed -->
-    </section>
+    <section class="portfolio-feed" id="portfolio-feed">
+  <!-- Dynamic feed will populate here -->
+</section>
+
+<script>
+  fetch('portfolio.json')
+    .then(response => response.json())
+    .then(data => {
+      const feed = document.getElementById('portfolio-feed');
+      data.forEach(item => {
+        let html = '';
+        if(item.type === 'youtube' || item.type === 'tiktok' || item.type === 'instagram') {
+          html = `
+            <div class="portfolio-item">
+              <iframe src="${item.url}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              <p class="caption">${item.caption}</p>
+            </div>`;
+        } else if(item.type === 'spotify') {
+          html = `
+            <div class="portfolio-item">
+              <iframe src="${item.url}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <p class="caption">${item.caption}</p>
+            </div>`;
+        } else if(item.type === 'image' || item.type === 'article') {
+          html = `
+            <div class="portfolio-item">
+              <a href="${item.url}" target="_blank">
+                <img src="${item.url}" alt="${item.caption}">
+              </a>
+              <p class="caption">${item.caption}</p>
+            </div>`;
+        }
+        feed.innerHTML += html;
+      });
+    });
+</script>
+
 
     <!-- Navigation / Buttons -->
     <section class="buttons">
