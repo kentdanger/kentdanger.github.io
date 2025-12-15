@@ -219,6 +219,11 @@ h1 {
   z-index: 10;
 }
 
+.social-nav img {
+  filter: invert(100%);
+}
+
+
 /* Button styling (inherits your look) */
 .social-btn {
   font-size: 0.9rem;
