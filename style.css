@@ -2,6 +2,9 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: black;
 }
 
 .video-bg {
@@ -23,9 +26,39 @@ html, body {
 .content {
   position: relative;
   z-index: 1;
-  color: white;
   text-align: center;
-  top: 40%;
-  font-family: sans-serif;
+  top: 20%;
 }
 
+.social-links {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .video-bg {
+    display: none;
+  }
+  body {
+    background: url('/assets/images/mobile-bg.jpg') no-repeat center/cover;
+  }
+}
