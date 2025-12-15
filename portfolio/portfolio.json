@@ -1,0 +1,26 @@
+[
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/VIDEO_ID",
+    "caption": "New single release",
+    "date": "2025-12-10"
+  },
+  {
+    "type": "spotify",
+    "url": "https://open.spotify.com/embed/track/TRACK_ID",
+    "caption": "Latest EP on Spotify",
+    "date": "2025-12-08"
+  },
+  {
+    "type": "image",
+    "url": "../assets/images/photo1.jpg",
+    "caption": "Live performance",
+    "date": "2025-12-01"
+  },
+  {
+    "type": "tiktok",
+    "url": "https://www.tiktok.com/embed/VIDEO_ID",
+    "caption": "Funny studio clip",
+    "date": "2025-12-05"
+  }
+]
