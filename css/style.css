@@ -297,3 +297,17 @@ h1 {
 }
 
 
+
+.service-btn img {
+  width: 64px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .service-btn img {
+    width: 48px;
+  }
+}
+
+
+
