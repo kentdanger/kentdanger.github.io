@@ -2,13 +2,18 @@
   box-sizing: border-box;
 }
 
-html, body {
+/* html, body {
   margin: 0;
   height: 100%;
   font-family: Arial, sans-serif;
   color: white;
   background: transparent;
+} */
+
+body {
+  background-color: #333333; /* dark grey */
 }
+
 
 .video-bg {
   position: fixed;
