@@ -1,4 +1,44 @@
 [
+{
+    "type": "spotify",
+    "url": "https://open.spotify.com/album/6DCGFxvTtfDknKxy4n0aO3",
+    "caption": "Creature Mode: Vulnerable",
+    "date": "2025-12-21"
+  },
+
+{
+    "type": "spotify",
+    "url": "https://open.spotify.com/album/4T6xS2GYZTC1Wgnk0wZZar",
+    "caption": "Creature Mode: Velocity",
+    "date": "2025-08-28"
+  },
+
+{
+    "type": "spotify",
+    "url": "https://open.spotify.com/album/0h4UpuTpCMjWuyysntwJRz",
+    "caption": "Creature Mode: Vicious",
+    "date": "2025-07-11"
+  },
+
+{
+    "type": "spotify",
+    "url": "https://open.spotify.com/embed/track/TRACK_ID",
+    "caption": "Latest EP on Spotify",
+    "date": "2025-12-08"
+  },
+
+{
+    "type": "spotify",
+    "url": "https://open.spotify.com/embed/track/TRACK_ID",
+    "caption": "Latest EP on Spotify",
+    "date": "2025-12-08"
+  },
+
+
+
+
+
+  
   {
     "type": "youtube",
     "url": "https://www.youtube.com/embed/VIDEO_ID",
@@ -23,4 +63,15 @@
     "caption": "Funny studio clip",
     "date": "2025-12-05"
   }
+
+
+
+
+
+
+
+
+
+
+  
 ]
