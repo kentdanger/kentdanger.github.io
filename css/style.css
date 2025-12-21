@@ -122,8 +122,9 @@ h1 {
 
 /* Mobile fallback */
 @media (max-width: 768px) {
-  .video-bg {
-    display: none;
+  /*.video-bg {
+    display: none;*/
+     background-color: #333333; /* dark grey */
   }
 
   body {
