@@ -63,7 +63,7 @@ body {
 
 
 /* Hero layout */
-/*.hero {
+.hero {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -71,11 +71,11 @@ body {
   align-items: center;
   text-align: center;
   padding: 20px;
-}*/
+}
 
 h1 {
   font-size: 3rem;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1rem;
   margin: 0;
 }
 
@@ -128,7 +128,7 @@ h1 {
   }
 
   body {
-    background: url("assets/images/mobile-bg.jpg") center / cover no-repeat;
+    background: url("") center / cover no-repeat;
   }
 
   h1 {
@@ -150,7 +150,7 @@ h1 {
 
 .signature img {
   max-width: 250px;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   display: block;
 }
 
